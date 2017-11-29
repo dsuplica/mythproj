@@ -1,0 +1,11 @@
+
+#!/bin/sh
+
+su admin;
+echo 'Please enter your password';
+sudo update-hosts.sh add aquila.com 127.0.0.1;
+echo 'Sucessfully wrote /etc/hosts. You can now visit aquila.com in your browser';
+exit;
+
+
+
